@@ -3,6 +3,7 @@
 // COMPUTER, IL NUMERO PIù ALTO VINCE!
 
 // funzione per il gioco dei dadi
+//for(let i =0; i < 6; i++){
 function diceGame() {
 
     // genera un numero random tra 1 e 6 per il player
@@ -29,8 +30,7 @@ function diceGame() {
 }
 
 // recupero del bottone
-let rollButton = document.getElementById("gioca");
+let button = document.getElementById("gioca");
 
 // funzione diceGame all'evento click
-rollButton.addEventListener("click", diceGame);
-
+button.addEventListener("click", diceGame);
