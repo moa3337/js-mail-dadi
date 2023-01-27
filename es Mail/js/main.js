@@ -13,7 +13,7 @@ let allowLogin = false;
 // ciclo
 for (let i = 0; i < emails.length; i++) {
     const currentEmail = emails[i];
-    
+
     // controllo nome utente nella lista
     if (currentEmail == userEmail) {
         allowLogin = true;
